@@ -1,0 +1,19 @@
+run.config:
+  engine: php
+  engine.config:
+    runtime: php-7.1
+    extensions:
+      - mcrypt
+      - mysqli
+      - mbstring
+      - gd
+      - session
+      - xml
+      - tokenizer
+      - dom
+      - curl
+      - simplexml
+      - xmlwriter
+      - zip
+      - ctype
+      - iconv
